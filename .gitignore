@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+
+.vscode/
+
+CLAUDE.md
+template_output.txt
+附件二---作品设计报告（模板）.docx
+
+report/~$*.docx
+report/BehVault_作品设计报告存档.docx
+
+*.db

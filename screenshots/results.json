@@ -1,0 +1,73 @@
+{
+  "genuine_stats": {
+    "safe": 37,
+    "suspicious": 7,
+    "high_risk": 6
+  },
+  "impostor_rejected": 50,
+  "far": 0.0,
+  "frr": 0.26,
+  "eer": 0.04,
+  "eer_threshold": 80,
+  "experiment": {
+    "far": 0.0,
+    "frr": 0.0,
+    "eer": 0.0,
+    "best_threshold": 30,
+    "leak_mean": 92.82,
+    "imitation_mean": 100.0,
+    "random_mean": 92.82
+  },
+  "unit_tests": {
+    "SM4 Core": {
+      "passed": true,
+      "output": "All SM4 tests passed!\n"
+    },
+    "Authentication": {
+      "passed": true,
+      "output": "All auth tests passed!\n"
+    },
+    "Machine Learning": {
+      "passed": true,
+      "output": "All ML tests passed!\n"
+    },
+    "Vault": {
+      "passed": true,
+      "output": "All vault tests passed!\n"
+    }
+  },
+  "sm4_correct": true,
+  "adaptive": {
+    "fixed_frr": 0.3,
+    "adaptive_frr": 0.16666666666666666
+  },
+  "vault_performance": {
+    "1 KB": {
+      "encrypt_ms": 14.897300003212877,
+      "decrypt_ms": 18.016499998338986
+    },
+    "10 KB": {
+      "encrypt_ms": 128.86430000071414,
+      "decrypt_ms": 121.77369999699295
+    },
+    "100 KB": {
+      "encrypt_ms": 1300.5865000013728,
+      "decrypt_ms": 1018.0146999991848
+    },
+    "1 MB": {
+      "encrypt_ms": 9810.649799997918,
+      "decrypt_ms": 9914.841300000262
+    }
+  },
+  "template_stats": {
+    "n_samples": 10,
+    "mean_hold": 114.03652263514064,
+    "std_hold": 12.669971976664927,
+    "mean_flight": 102.23857253388402,
+    "std_flight": 15.013237049522694,
+    "mu_d": 2.8012773932190695,
+    "sigma_d": 0.5189867253660462,
+    "safe_threshold": 3.579757481268139,
+    "high_risk_threshold": 4.3582375693172075
+  }
+}
